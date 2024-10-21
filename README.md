@@ -17,9 +17,6 @@ The Netflix Clone showcases the following features:
 - HTML
 - CSS
 - Flexbox for Layout
-- Cloudinary for image hosting
 
-## Live Demo
 
-You can view the live version of the project [here](insert_your_link).
 
