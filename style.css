@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #000;
+    color: #ffffff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.sectionHome {
+    background-image: linear-gradient(black, transparent 50%), linear-gradient(transparent 10%, black), url('https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 120px 15px 120px;
+}
+
+.netflix-logo {
+    width: 156px;
+    height: 100%;
+}
+
+.sectionHome nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionHome select,
+.last-btn {
+    background-color: #000;
+    color: #ffffff;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 31px;
+    width: 100px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.red-button-sm,
+.red-button-lg {
+    background-color: #E50914;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    height: 32px;
+    width: 72px;
+    font-size: 14px;
+}
+
+.red-button-lg {
+    height: 46px;
+    width: 146px;
+    font-size: 17px;
+}
+
+.email-input {
+    background-color: #000;
+    opacity: 0.65;
+    border: 1px solid #9F9C9B;
+    height: 24px;
+    width: 280px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sectionHome input::placeholder,
+.sectionFAQ input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.sectionHomeContent {
+    text-align: center;
+    margin: 15% 10% 15% 10%;
+}
+
+.sectionHome h1,
+.sectionFeature h1,
+.sectionFAQ h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.sectionHome p:nth-of-type(1),
+.sectionFeature p,
+.sectionFAQ p {
+    font-size: 22px;
+}
+
+.sectionHome p:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.sectionFeature {
+    display: flex;
+    padding: 15px 120px 15px 120px;
+}
+
+.feature-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feature-img img {
+    width: 480px;
+}
+
+.video-1 {
+    position: absolute;
+    width: 350px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.text-container {
+    margin: 10%;
+}
+
+.download-card {
+    background-color: #000;
+    border: 2px solid #616161;
+    border-radius: 10px;
+    height: 80px;
+    width: 260px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 240px;
+}
+
+.download-card img {
+    width: 60px;
+}
+
+.download-card h2 {
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.download-card p {
+    color: blue;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.downloading-gif {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+.video-2 {
+    position: absolute;
+    width: 300px;
+    margin-bottom: 120px;
+    margin-right: 5px;
+}
+
+.sectionFAQ {
+    padding: 15px 120px 15px 120px;
+}
+
+.sectionFAQ h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.FAQ-container li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #2D2D2D;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 10px;
+}
+
+.sectionFAQ div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    padding: 25px 140px 25px 160px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 26px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-start {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+}
+
+.last-btn {
+    margin: 20px 0px 20px 0px;
+}
+
+.seperation {
+    background-color: #272525;
+    height: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
